@@ -1,0 +1,28 @@
+{
+	"name": "osfg-webhook",
+	"version": "0.0.1",
+	"description": "Receives POST events from FCC repos",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.15.2",
+		"body-parser": "^1.17.1",
+		"crypto": "^0.0.3",
+		"request": "^2.81.0",
+		"showdown": "^1.6.4"
+	},
+	"engines": {
+		"node": "6.9.x"
+	},
+	"repository": {
+		"url": "https://glitch.com/#!/project/welcome-project"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"glitch",
+		"express"
+	]
+}
